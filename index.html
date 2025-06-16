@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Web</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-page="home">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-page="about">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link" data-page="projets">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Accueil -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Bonjour, je suis
+                            <span class="highlight">MEHADJI M-Yacine</span>
+                        </h1>
+                        <p class="hero-description">
+                            Étudiant passionné par les sciences, je poursuis mon but de devenir ingénieur en développant chaque jour mes compétences et mes connaissances.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" data-page="projets">Voir mes projets</button>
+                            <button class="btn btn-secondary" data-page="contact">Me contacter</button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="src/ChatGPT Image 16 juin 2025, 23_35_13.png" alt="Développeur" class="profile-img">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+        <span class="stat-number">∞</span>
+        <span class="stat-label">Lignes de code écrites</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">🚀</span>
+        <span class="stat-label">Projets lancés vers l'infini</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">💡</span>
+        <span class="stat-label">Idées brillantes par jour</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">☕</span>
+        <span class="stat-label">Cafés consommés (beaucoup)</span>
+    </div>
+                </div>
+            </div>
+
+          <!-- Section Services -->
+            <div class="services-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Mes Qualités</h2>
+                        <p class="section-subtitle">Les soft skills qui font la différence dans mes collaborations</p>
+                    </div>
+                    
+                    <div class="services-grid">
+    <div class="service-card">
+        <div class="service-icon">
+            <i class="fas fa-users"></i>
+        </div>
+        <h3>Collaboration & Travail d'équipe</h3>
+        <p>Capacité à travailler efficacement en équipe, à communiquer clairement et à contribuer positivement aux projets collectifs.</p>
+        <ul class="service-features">
+            <li>Communication claire</li>
+            <li>Écoute active</li>
+            <li>Esprit d'équipe</li>
+        </ul>
+    </div>
+    
+    <div class="service-card">
+        <div class="service-icon">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+        <h3>Apprentissage & Adaptabilité</h3>
+        <p>Motivation constante pour apprendre de nouvelles technologies et s'adapter rapidement aux besoins des projets.</p>
+        <ul class="service-features">
+            <li>Curiosité technique</li>
+            <li>Formation continue</li>
+            <li>Flexibilité</li>
+        </ul>
+    </div>
+    
+    <div class="service-card">
+        <div class="service-icon">
+            <i class="fas fa-clock"></i>
+        </div>
+        <h3>Organisation & Rigueur</h3>
+        <p>Respect des délais, organisation méthodique du travail et attention aux détails pour livrer un code de qualité.</p>
+        <ul class="service-features">
+            <li>Gestion du temps</li>
+            <li>Code propre</li>
+            <li>Respect des délais</li>
+        </ul>
+    </div>
+</div>
+
+            <!-- Section Technologies -->
+                <div class="technologies-section">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="section-title">Technologies Maîtrisées</h2>
+                            <p class="section-subtitle">Un stack technique moderne et performant</p>
+                        </div>
+                        
+                        <div class="tech-categories">
+                            <div class="tech-category">
+                                <h3>Langages Web</h3>
+                                <div class="tech-icons">
+                                    <div class="tech-item">
+                                        <i class="fab fa-html5"></i>
+                                        <span>HTML</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fab fa-css3-alt"></i>
+                                        <span>CSS</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fab fa-js-square"></i>
+                                        <span>JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-category">
+                                <h3>Langages de Programmation</h3>
+                                <div class="tech-icons">
+                                    <div class="tech-item">
+                                        <i class="fab fa-python"></i>
+                                        <span>Python</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fab fa-java"></i>
+                                        <span>Java</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-code"></i>
+                                        <span>C</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-code"></i>
+                                        <span>C++</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-category">
+                                <h3>Outils & Systèmes</h3>
+                                <div class="tech-icons">
+                                    <div class="tech-item">
+                                        <i class="fas fa-database"></i>
+                                        <span>SQL</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-terminal"></i>
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <span>Risk</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page À propos -->
+        <section id="about" class="page">
+            <div class="about">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">À propos de moi</h2>
+                        <p class="section-subtitle">Découvrez mon parcours et mes compétences</p>
+                    </div>
+                    
+                    <div class="about-intro">
+                        <div class="intro-content">
+                            <div class="intro-text">
+                                <h3>Étudiant passionné</h3>
+                                <p>
+                                   Étudiant en première année de BUT Informatique, je développe des compétences solides en programmation (Python, Java), conception de bases de données (SQL), développement web (HTML, CSS, JavaScript), ainsi qu'en algorithmique, mathématiques et architecture des systèmes. Je m'initie également à la gestion de projet, au travail en équipe et à la communication professionnelle.
+                                </p>
+                                <p>
+                                    Curieux et motivé, je suis en constante progression et m'investis pleinement dans chaque projet pour acquérir une expertise polyvalente en informatique.
+                                </p>
+                            </div>
+                            <div class="intro-image">
+                                <img src="src/ChatGPT Image 16 juin 2025, 23_35_13.png" alt="À propos">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-content">
+                        <div class="about-left">
+                            <div class="text-block">
+                                <h3>Ma philosophie</h3>
+                                <p>
+                                    Je crois en l'importance du code propre, des bonnes pratiques et de 
+                                    l'amélioration continue. Chaque projet est une opportunité d'apprendre 
+                                    et de repousser les limites de ce qui est possible.
+                                </p>
+                            </div>
+                            
+                            <div class="text-block">
+                                <h3>Mes valeurs</h3>
+                                <ul class="values-list">
+                                    <li><i class="fas fa-check"></i> Excellence technique</li>
+                                    <li><i class="fas fa-check"></i> Communication transparente</li>
+                                    <li><i class="fas fa-check"></i> Respect des délais</li>
+                                    <li><i class="fas fa-check"></i> Innovation constante</li>
+                                    <li><i class="fas fa-check"></i> Collaboration</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="experience-timeline">
+                                <h3>Parcours professionnel</h3>
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-date">2024-2025</div>
+                                        <div class="timeline-content">
+                                            <h4>BUT Informatique Sorbonne Paris Nord</h4>
+                                            <p>Apprentissage des bases de la programmation (Python, Java) et de l'algorithmique. Conception et gestion de bases de données relationnelles avec SQL. Développement de compétences en communication professionnelle et gestion de projet.</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-date">2022-2024</div>
+                                        <div class="timeline-content">
+                                            <h4>Lycée Marie Curie - Baccalauréat STI2D</h4>
+                                            <p>Étude des systèmes technologiques innovants, avec une approche croisée entre électronique, informatique, énergie et développement durable.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-right">
+                            <div class="skills-section">
+                                <h3>Compétences techniques</h3>
+                                <div class="skills-grid">
+                                    <div class="skill-category">
+                                        <div class="skills-list">
+                                            <div class="skill-item">
+                                                <span class="skill-name">HTML/CSS</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="60"></div>
+                                                </div>
+                                                <span class="skill-percent">60%</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <span class="skill-name">JavaScript</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="60"></div>
+                                                </div>
+                                                <span class="skill-percent">60%</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <span class="skill-name">Python</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="75"></div>
+                                                </div>
+                                                <span class="skill-percent">75%</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <span class="skill-name">Java</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="75"></div>
+                                                </div>
+                                                <span class="skill-percent">75%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="skill-category">
+                                        <div class="skills-list">
+                                            <div class="skill-item">
+                                                <span class="skill-name">C/C++</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="50"></div>
+                                                </div>
+                                                <span class="skill-percent">50%</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <span class="skill-name">Bash</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="50"></div>
+                                                </div>
+                                                <span class="skill-percent">50%</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <span class="skill-name">SQL</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="60"></div>
+                                                </div>
+                                                <span class="skill-percent">60%</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <span class="skill-name">Risk</span>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" data-progress="50"></div>
+                                                </div>
+                                                <span class="skill-percent">50%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="certifications-section">
+                                <h3>Certifications</h3>
+                                <div class="certifications-list">
+                                    <div class="cert-item">
+                                        <div class="cert-icon">
+                                            <i class="fab fa-laptop-code"></i>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>Certification PIX</h4>
+                                            <span>Compétences numériques - 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="cert-item">
+                                        <div class="cert-icon">
+                                            <i class="fas fa-globe"></i>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>TOEIC</h4>
+                                            <span>Score 615 - 2025</span>
+                                        </div>
+                                    </div>
+                                    <div class="cert-item">
+                                        <div class="cert-icon">
+                                            <i class="fas fa-car"></i>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>Code de la route</h4>
+                                            <span>Score 38/40 - 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="interests-section">
+                                <h3>Centres d'intérêt</h3>
+                                <div class="interests-grid">
+                                    <div class="interest-item">
+                                        <i class="fas fa-camera"></i>
+                                        <span>Photographie</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-mountain"></i>
+                                        <span>Randonnée</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-book"></i>
+                                        <span>Lecture</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-gamepad"></i>
+                                        <span>Gaming</span>
+                                    </div>
+                                    <div class="interest-item">
+                                        <i class="fas fa-music"></i>
+                                        <span>Musique</span>
+                                    </div>
+                                     <div class="interest-item">
+                                        <i class="fas fa-film"></i>
+                                        <span>Cinéma</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page Projets - NOUVELLE VERSION -->
+        <section id="projets" class="page">
+            <div class="projects-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Mes Projets</h2>
+                        <p class="section-subtitle">Découvrez mes réalisations et les technologies utilisées</p>
+                    </div>
+                    
+                    <div class="projects-grid">
+                        <!-- Projet 1: Site Web Personnel -->
+                        <div class="project-card" data-project="0">
+                            <div class="project-image">
+                                <img src="src/AFF_TRESOR_Banlieues.jpg" alt="Site Web Personnel">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://github.com/Senseijuro" class="project-link" title="Voir le code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://nimble-phoenix-410880.netlify.app/" class="project-link" title="Voir le projet">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <button class="project-link project-details-btn" title="Plus de détails" data-project="0">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag html">HTML</span>
+                                    <span class="tech-tag css">CSS</span>
+                                    <span class="tech-tag js">JavaScript</span>
+                                </div>
+                                <h3 class="project-title">Trésors de banlieue</h3>
+                                <p class="project-description">
+                                Trésors de banlieue est un site créé pour valoriser les richesses culturelles et humaines des quartiers. Il donne la parole à ceux qui y vivent et y créent, loin des stéréotypes.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Projet 2: Calculatrice Python -->
+                        <div class="project-card" data-project="1">
+                            <div class="project-image">
+                                <img src="src/gathering-requirements-guide-768x492.png" alt="Calculatrice Python">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://github.com/Senseijuro" class="project-link" title="Voir le code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="Télécharger">
+                                            <i class="fas fa-download"></i>
+                                        </a>
+                                        <button class="project-link project-details-btn" title="Plus de détails" data-project="1">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag python">Analyse</span>
+                                    <span class="tech-tag other">Questionnaire</span>
+                                    <span class="tech-tag other">Documentation</span>
+                                </div>
+                                <h3 class="project-title">Recueil de Besoins</h3>
+                                <p class="project-description">
+                                    Projet visant à recueillir l’avis des étudiants de Sorbonne Paris Nord pour identifier des axes d’amélioration au sein de l’établissement.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Projet 3: Base de Données -->
+                        <div class="project-card" data-project="2">
+                            <div class="project-image">
+                                <img src="src/téléchargement (1).png" alt="Base de données Bibliothèque">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://github.com/Senseijuro" class="project-link" title="Schéma BDD">
+                                            <i class="fas fa-database"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="Documentation">
+                                            <i class="fas fa-file-alt"></i>
+                                        </a>
+                                        <button class="project-link project-details-btn" title="Plus de détails" data-project="2">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag sql">Linux</span>
+                                    <span class="tech-tag sql">Configuration</span>
+                                    <span class="tech-tag other">Réseau</span>
+                                </div>
+                                <h3 class="project-title">Installation de Poste</h3>
+                                <p class="project-description">
+                                    Projet pratique visant à installer et configurer un poste de travail sous Linux.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Projet 4: Jeu en Java -->
+                        <div class="project-card" data-project="3">
+                            <div class="project-image">
+                                <img src="src/cg.png" alt="Jeu Java">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://github.com/Senseijuro" class="project-link" title="Voir le code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="Jouer">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <button class="project-link project-details-btn" title="Plus de détails" data-project="3">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag java">Java</span>
+                                    <span class="tech-tag java">POO</span>
+                                    <span class="tech-tag other">Interface</span>
+                                </div>
+                                <h3 class="project-title">Jeu de Stratégie</h3>
+                                <p class="project-description">
+                                    Réalisation d'un jeu d'échecs simplifié en Java, dans le cadre d'un apprentissage de la POO.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Projet 5: Analyse de Données -->
+                        <div class="project-card" data-project="4">
+                            <div class="project-image">
+                                <img src="src/Python-Symbole.jpg" alt="Analyse de données">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://github.com/Senseijuro" class="project-link" title="Voir les graphiques">
+                                            <i class="fas fa-chart-bar"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="Données">
+                                            <i class="fas fa-file-csv"></i>
+                                        </a>
+                                        <button class="project-link project-details-btn" title="Plus de détails" data-project="4">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag python">Python</span>
+                                    <span class="tech-tag python">Algorithmes</span>
+                                    <span class="tech-tag python">Scripts</span>
+                                </div>
+                                <h3 class="project-title">Analyse de Marché</h3>
+                                <p class="project-description">
+                                    Projet visant à développer des scripts Python pour résoudre des problèmes simples (tri, manipulation de fichiers, etc.).
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Projet 6: Script d'Automatisation -->
+                        <div class="project-card" data-project="5">
+                            <div class="project-image">
+                                <img src="src/gestiondeprojet.jpg" alt="Script Bash">
+                                <div class="project-overlay">
+                                    <div class="project-actions">
+                                        <a href="https://github.com/Senseijuro" class="project-link" title="Voir le code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="Documentation">
+                                            <i class="fas fa-book"></i>
+                                        </a>
+                                        <button class="project-link project-details-btn" title="Plus de détails" data-project="5">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tech-tags">
+                                    <span class="tech-tag bash">Gantt</span>
+                                    <span class="tech-tag other">Planning</span>
+                                    <span class="tech-tag other">Management</span>
+                                </div>
+                                <h3 class="project-title">Automatisation Système</h3>
+                                <p class="project-description">
+                                     Apprentissage des bases de la gestion de projet à travers un cas pratique en équipe.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal pour les détails des projets -->
+            <div class="project-modal" id="project-modal">
+                <div class="modal-overlay"></div>
+                <div class="modal-content">
+                    <button class="modal-close" id="modal-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body" id="modal-body">
+                        <!-- Le contenu sera injecté dynamiquement -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page Contact -->
+        <section id="contact" class="page">
+            <div class="contact">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Contactez-moi</h2>
+                        <p class="section-subtitle">C'est au tableau, tu croyais vraiment que j'allais tout leak ?</p>
+                    </div>
+                    
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>Nope</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Téléphone</h4>
+                                    <p>Clairement pas</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Localisation</h4>
+                                    <p>France</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Disponibilité</h4>
+                                    <p>Lun - Ven : 9h - 18h</p>
+                                </div>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/mohamed-yacine-mehadji-36453632b/" target="_blank" class="social-link">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Senseijuro" target="_blank" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://x.com/MYacine_J" target="_blank" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="src/CV MEHADJI M_Yacine.pdf" target="_blank" class="social-link">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </div>
+
+                            <!-- Carte de localisation -->
+                            <div class="location-map">
+                                <h4>Localisation</h4>
+                                <div class="map-placeholder">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <p>Paris, France</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form">
+                            <form id="contactForm">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <input type="text" id="firstName" name="firstName" required>
+                                        <label for="firstName">Prénom</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="lastName" name="lastName" required>
+                                        <label for="lastName">Nom</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <input type="email" id="email" name="email" required>
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" id="phone" name="phone">
+                                        <label for="phone">Téléphone (optionnel)</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <select id="projectType" name="projectType" required>
+                                        <option value="">Sélectionnez le type de projet</option>
+                                        <option value="website">Site web</option>
+                                        <option value="webapp">Application web</option>
+                                        <option value="mobile">Application mobile</option>
+                                        <option value="ecommerce">E-commerce</option>
+                                        <option value="other">Autre</option>
+                                    </select>
+                                    <label for="projectType"></label>
+                                </div>
+                                
+                                
+                                <div class="form-group">
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                    <label for="message">Décrivez votre projet</label>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Envoyer le message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                     <!-- Glitch Text Section -->
+                    <div class="glitch-section">
+                        <div class="glitch-container">
+                            <h1 class="glitch" data-text="THE WORLD IS YOURS">THE WORLD IS YOURS</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Portfolio</h3>
+                    <p>Développeur web passionné créant des expériences digitales exceptionnelles.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/mohamed-yacine-mehadji-36453632b/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Senseijuro" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/MYacine_J" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="#home" data-page="home">Accueil</a></li>
+                                <li><a href="#about" data-page="about">À propos</a></li>
+                                <li><a href="#projets" data-page="projets">Projets</a></li>
+                                <li><a href="#contact" data-page="contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#">Développement Web</a></li>
+                                <li><a href="#">Applications Mobile</a></li>
+                                <li><a href="#">Consulting</a></li>
+                                <li><a href="#">Maintenance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Portfolio. Tous droits réservés.</p>
+                <p>Développé avec passion ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
